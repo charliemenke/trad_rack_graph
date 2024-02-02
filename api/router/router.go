@@ -1,5 +1,12 @@
 package router
 
+import (
+    "net/http"
+)
+
 // build and return server router
-func Build() {
+func New() {
+    router := http.NewServeMux()
+
+    router.HandleFunc()
 }
